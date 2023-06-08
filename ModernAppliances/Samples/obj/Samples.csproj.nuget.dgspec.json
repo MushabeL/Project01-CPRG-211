@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Chan\\Source\\Repos\\Project01-CPRG-211\\ModernAppliances\\Samples\\Samples.csproj": {}
+    "C:\\Users\\Chan\\source\\repos\\Project01-CPRG-211\\ModernAppliances\\Samples\\Samples.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Chan\\Source\\Repos\\Project01-CPRG-211\\ModernAppliances\\Samples\\Samples.csproj": {
+    "C:\\Users\\Chan\\source\\repos\\Project01-CPRG-211\\ModernAppliances\\Samples\\Samples.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Chan\\Source\\Repos\\Project01-CPRG-211\\ModernAppliances\\Samples\\Samples.csproj",
+        "projectUniqueName": "C:\\Users\\Chan\\source\\repos\\Project01-CPRG-211\\ModernAppliances\\Samples\\Samples.csproj",
         "projectName": "Samples",
-        "projectPath": "C:\\Users\\Chan\\Source\\Repos\\Project01-CPRG-211\\ModernAppliances\\Samples\\Samples.csproj",
+        "projectPath": "C:\\Users\\Chan\\source\\repos\\Project01-CPRG-211\\ModernAppliances\\Samples\\Samples.csproj",
         "packagesPath": "C:\\Users\\Chan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Chan\\Source\\Repos\\Project01-CPRG-211\\ModernAppliances\\Samples\\obj\\",
+        "outputPath": "C:\\Users\\Chan\\source\\repos\\Project01-CPRG-211\\ModernAppliances\\Samples\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
