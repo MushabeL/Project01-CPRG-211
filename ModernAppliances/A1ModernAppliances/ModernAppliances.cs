@@ -141,67 +141,27 @@ namespace ModernAppliances
         /// <summary>
         /// Displays refridgerators
         /// </summary>
-        public abstract void DisplayRefrigerators()
-        {
-            List<Appliance> refrigerators = Appliances.Where(a => a is Refrigerator).ToList();
-            DisplayAppliancesFromList(refrigerators, 0);
-        }
+        public abstract void DisplayRefrigerators();
+
         /// <summary>
         /// Displays vacuums
         /// </summary>
         public abstract void DisplayVacuums();
-        {
-            List<Appliance> vacuums = Appliances.Where(a => a is Vacuum).ToList();
-            DisplayAppliancesFromList(vacuums, 0);
-    }
-
 
         /// <summary>
         /// Displays microwaves
         /// </summary>
         public abstract void DisplayMicrowaves();
-     {
-            List<Appliance> microwaves = Appliances.Where(a => a is Microwave).ToList();
-            DisplayAppliancesFromList(microwaves, 0);
-    }
-
 
         /// <summary>
         /// Displays dishwashers
         /// </summary>
         public abstract void DisplayDishwashers();
-           {
-        List<Appliance> dishwashers = Appliances.Where(a => a is Dishwasher).ToList();
-        DisplayAppliancesFromList(dishwashers, 0);
-       }
 
         /// <summary>
         /// Generates random list of appliances
         /// </summary>
         public abstract void RandomList();
-         {
-        int maxAppliances = 5; // Maximum number of random appliances to display
-        Random random = new Random();
-
-        List<Appliance> randomAppliances = new List<Appliance>();
-
-        // Generate random indices to select random appliances
-        List<int> randomIndices = new List<int>();
-        while (randomIndices.Count < maxAppliances && randomIndices.Count < Appliances.Count)
-        {
-            int randomIndex = random.Next(0, Appliances.Count);
-            if (!randomIndices.Contains(randomIndex))
-                randomIndices.Add(randomIndex);
-        }
-
-        // Add randomly selected appliances to the randomAppliances list
-        foreach (int index in randomIndices)
-        {
-            randomAppliances.Add(Appliances[index]);
-        }
-
-        DisplayAppliancesFromList(randomAppliances, 0);
-    }
 
         /// <summary>
         /// Saves appliances to text file
