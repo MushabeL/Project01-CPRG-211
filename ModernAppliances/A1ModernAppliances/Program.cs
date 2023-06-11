@@ -14,6 +14,7 @@
             while (option != ModernAppliances.Options.SaveExit)
             {
                 modernAppliances.DisplayMenu();
+                Console.WriteLine("Enter option: ");
 
                 option = Enum.Parse<ModernAppliances.Options>(Console.ReadLine());
                 
